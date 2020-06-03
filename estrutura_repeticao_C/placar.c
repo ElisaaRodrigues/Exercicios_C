@@ -7,7 +7,7 @@ int main(){
 	
 	do{
 		printf("Entre com \nA para marcar ponto para Equipe A\nB para marcar ponto para Equipe B\nF para encerrar e mostrar placar: ");
-		scanf("%c", &opcao);
+		scanf(" %c", &opcao);
 		printf("\n");
 		switch(opcao){
 			case 'A': PlacarA++; break;

@@ -6,7 +6,7 @@ int main(){
 	int n1, n2, out;
 	do{
 		printf("Digite a para soma, b para subtração ou q para sair: ");
-		scanf("%c", &opcao);
+		scanf(" %c", &opcao);
 		
 		switch(opcao){
 	
